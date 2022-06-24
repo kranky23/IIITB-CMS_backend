@@ -68,26 +68,26 @@ class PostServiceTest {
         Assertions.assertThat(actualPostResponse.getPostName()).isEqualTo(expectedPostResponse.getPostName());
     }
 
-    @Test
-    @DisplayName("Should Save Posts")
-    public void shouldSavePosts() {
-        User currentUser = new User(123L, "roll number", "test user", "secret password", "user@email.com", Instant.now(), true);
-        Subpost subpost = new Subpost(123L, "First Subpost", "Subpost Description", emptyList(), Instant.now(), currentUser);
-        Post post = new Post(123L, "First Post", "http://url.site", "Test",
-                0, null, Instant.now(), null);
-        PostRequest postRequest = new PostRequest(null, "First Subreddit", "First Post", "http://url.site", "Test");
-
-        Mockito.when(subpostRepository.findByName("First Subreddit"))
-                .thenReturn(Optional.of(subpost));
-        Mockito.when(authService.getCurrentUser())
-                .thenReturn(currentUser);
-        Mockito.when(postMapper.map(postRequest, subpost, currentUser))
-                .thenReturn(post);
-
-        postService.save(postRequest);
-        Mockito.verify(postRepository, Mockito.times(1)).save(postArgumentCaptor.capture());
-
-        Assertions.assertThat(postArgumentCaptor.getValue().getPostId()).isEqualTo(123L);
-        Assertions.assertThat(postArgumentCaptor.getValue().getPostName()).isEqualTo("First Post");
-    }
+//    @Test
+//    @DisplayName("Should Save Posts")
+//    public void shouldSavePosts() {
+//        User currentUser = new User(123L, "roll number", "test user", "secret password", "user@email.com", Instant.now(), true);
+//        Subpost subpost = new Subpost(123L, "First Subpost", "Subpost Description", emptyList(), Instant.now(), currentUser);
+//        Post post = new Post(123L, "First Post", "http://url.site", "Test",
+//                0, null, Instant.now(), null);
+//        PostRequest postRequest = new PostRequest(null, "First Subreddit", "First Post", "http://url.site", "Test");
+//
+//        Mockito.when(subpostRepository.findByName("First Subreddit"))
+//                .thenReturn(Optional.of(subpost));
+//        Mockito.when(authService.getCurrentUser())
+//                .thenReturn(currentUser);
+//        Mockito.when(postMapper.map(postRequest, subpost, currentUser))
+//                .thenReturn(post);
+//
+//        postService.save(postRequest);
+//        Mockito.verify(postRepository, Mockito.times(1)).save(postArgumentCaptor.capture());
+//
+//        Assertions.assertThat(postArgumentCaptor.getValue().getPostId()).isEqualTo(123L);
+//        Assertions.assertThat(postArgumentCaptor.getValue().getPostName()).isEqualTo("First Post");
+//    }
 }

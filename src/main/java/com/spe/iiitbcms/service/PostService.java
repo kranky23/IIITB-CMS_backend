@@ -36,6 +36,7 @@ public class PostService {
     public void save(PostRequest postRequest) {
         Subpost subpost = subpostRepository.findByName(postRequest.getSubpostName())
                 .orElseThrow(() -> new SubpostNotFoundException(postRequest.getSubpostName()));
+        System.out.println("SUbpost is " + subpost.toString());
         postRepository.save(postMapper.map(postRequest, subpost, authService.getCurrentUser()));
     }
 

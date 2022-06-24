@@ -28,10 +28,12 @@ public class PostController {
     public ResponseEntity<Void> createPost(@RequestBody PostRequest postRequest) {
         HttpStatus stat;
         try {
+            System.out.println("subpost name is" + postRequest.getSubpostName());
             postService.save(postRequest);
             stat = HttpStatus.CREATED;
             logger.info("Successfully created post");
         } catch (Exception e){
+            System.out.println("Exception is " + e);
             logger.error("Error in creating post");
             stat = HttpStatus.EXPECTATION_FAILED;
         }

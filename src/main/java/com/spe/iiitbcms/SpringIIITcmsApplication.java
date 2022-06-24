@@ -17,7 +17,7 @@ import java.util.Arrays;
 @Import(SwaggerConfiguration.class)
 public class SpringIIITcmsApplication {
     public static void main(String[] args) {
-        SpringApplication.run(com.spe.iiitbcms.SpringIIITcmsApplication.class, args);
+        SpringApplication.run(SpringIIITcmsApplication.class, args);
     }
 
     @Bean

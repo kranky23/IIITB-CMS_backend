@@ -29,6 +29,4 @@ public class Subpost {
     @OneToMany(fetch = LAZY)
     private List<Post> posts;
     private Instant createdDate;
-    @ManyToOne(fetch = LAZY)
-    private User user;
 }

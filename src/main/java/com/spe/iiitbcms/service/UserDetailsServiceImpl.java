@@ -23,14 +23,14 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
     @Override
     @Transactional(readOnly = true)
-    public UserDetails loadUserByUsername(String rollNo) {
-        Optional<User> userOptional = userRepository.findByRollNo(rollNo);
+    public UserDetails loadUserByUsername(String email) {
+        Optional<User> userOptional = userRepository.findByEmail(email);
         User user = userOptional
                 .orElseThrow(() -> new UsernameNotFoundException("No user " +
-                        "Found with roll no. : " + rollNo));
+                        "found with email : " + email));
 
         return new org.springframework.security
-                .core.userdetails.User(user.getRollNo(), user.getPassword(),
+                .core.userdetails.User(user.getEmail(), user.getPassword(),
                 user.isEnabled(), true, true,
                 true, getAuthorities("USER"));
     }

@@ -47,29 +47,29 @@ public class AuthController {
 //        return new ResponseEntity<>("Account Activated Successfully", OK);
     }
 
-    @PostMapping("/login")
-    public AuthenticationResponse login(@RequestBody LoginRequest loginRequest) {
-        AuthenticationResponse aT = new AuthenticationResponse();
-        try {
-            aT = authService.login(loginRequest);
-            logger.info("Logging in");
-        } catch (Exception e){
-            logger.error("Error logging in");
-        }
-        return aT;
-    }
+//    @PostMapping("/login")
+//    public AuthenticationResponse login(@RequestBody LoginRequest loginRequest) {
+//        AuthenticationResponse aT = new AuthenticationResponse();
+//        try {
+//            aT = authService.login(loginRequest);
+//            logger.info("Logging in");
+//        } catch (Exception e){
+//            logger.error("Error logging in");
+//        }
+//        return aT;
+//    }
 
-    @PostMapping("/refresh/token")
-    public AuthenticationResponse refreshTokens(@Valid @RequestBody RefreshTokenRequest refreshTokenRequest) {
-        AuthenticationResponse aT = new AuthenticationResponse();
-        try {
-            aT = authService.refreshToken(refreshTokenRequest);
-            logger.info("Token refreshed succesfully");
-        } catch (Exception e) {
-            logger.error("Could not refresh the token");
-        }
-        return aT;
-    }
+//    @PostMapping("/refresh/token")
+//    public AuthenticationResponse refreshTokens(@Valid @RequestBody RefreshTokenRequest refreshTokenRequest) {
+//        AuthenticationResponse aT = new AuthenticationResponse();
+//        try {
+//            aT = authService.refreshToken(refreshTokenRequest);
+//            logger.info("Token refreshed succesfully");
+//        } catch (Exception e) {
+//            logger.error("Could not refresh the token");
+//        }
+//        return aT;
+//    }
 
     @PostMapping("/logout")
     public void logout(@Valid @RequestBody RefreshTokenRequest refreshTokenRequest) {

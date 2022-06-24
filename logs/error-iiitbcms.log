@@ -6,3 +6,121 @@
 15/May/2022:18:36:14 316 [VoteController.java] [ERROR] com.spe.iiitbcms.controller.VoteController Voting failed
 15/May/2022:18:36:18 837 [VoteController.java] [ERROR] com.spe.iiitbcms.controller.VoteController Voting failed
 15/May/2022:19:19:20 756 [AuthController.java] [ERROR] com.spe.iiitbcms.controller.AuthController Account could not be activated due to some error
+19/Jun/2022:20:58:30 825 [MailService.java] [ERROR] com.spe.iiitbcms.service.MailService Exception occurred when sending mail
+org.springframework.mail.MailSendException: Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.mailtrap.io, 25; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.mailtrap.io, 25; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:448) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:361) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:378) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:366) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at com.spe.iiitbcms.service.MailService.sendMail(MailService.java:32) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:789) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.14.jar:5.3.14]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.mailtrap.io, 25; timeout -1
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2210) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at javax.mail.Service.connect(Service.java:342) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437) ~[spring-context-support-5.3.14.jar:5.3.14]
+	... 18 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:579) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:568) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at java.net.Socket.connect(Socket.java:583) ~[?:?]
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:335) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:214) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2160) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at javax.mail.Service.connect(Service.java:342) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437) ~[spring-context-support-5.3.14.jar:5.3.14]
+	... 18 more
+19/Jun/2022:20:59:17 583 [AuthController.java] [ERROR] com.spe.iiitbcms.controller.AuthController Error logging in
+19/Jun/2022:20:59:27 351 [AuthController.java] [ERROR] com.spe.iiitbcms.controller.AuthController Error logging in
+19/Jun/2022:22:04:29 429 [MailService.java] [ERROR] com.spe.iiitbcms.service.MailService Exception occurred when sending mail
+org.springframework.mail.MailSendException: Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.mailtrap.io, 25; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.mailtrap.io, 25; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:448) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:361) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:378) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:366) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at com.spe.iiitbcms.service.MailService.sendMail(MailService.java:32) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:789) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.14.jar:5.3.14]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.14.jar:5.3.14]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.mailtrap.io, 25; timeout -1
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2210) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at javax.mail.Service.connect(Service.java:342) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437) ~[spring-context-support-5.3.14.jar:5.3.14]
+	... 18 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:579) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:568) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at java.net.Socket.connect(Socket.java:583) ~[?:?]
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:335) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:214) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2160) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at javax.mail.Service.connect(Service.java:342) ~[jakarta.mail-1.6.7.jar:1.6.7]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518) ~[spring-context-support-5.3.14.jar:5.3.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437) ~[spring-context-support-5.3.14.jar:5.3.14]
+	... 18 more
+19/Jun/2022:22:18:47 247 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+19/Jun/2022:22:18:52 099 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+19/Jun/2022:22:19:31 628 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 1
+19/Jun/2022:22:19:31 628 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the post 1
+20/Jun/2022:12:50:03 280 [VoteController.java] [ERROR] com.spe.iiitbcms.controller.VoteController Voting failed
+20/Jun/2022:12:50:03 824 [VoteController.java] [ERROR] com.spe.iiitbcms.controller.VoteController Voting failed
+20/Jun/2022:12:50:03 978 [VoteController.java] [ERROR] com.spe.iiitbcms.controller.VoteController Voting failed
+20/Jun/2022:14:44:46 741 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the post 2
+20/Jun/2022:14:44:46 746 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 2
+20/Jun/2022:14:45:28 959 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+20/Jun/2022:14:45:33 718 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+20/Jun/2022:14:45:38 675 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+20/Jun/2022:14:47:28 379 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+20/Jun/2022:14:50:03 760 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+20/Jun/2022:15:02:18 817 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the post 2
+20/Jun/2022:15:02:18 826 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 2
+20/Jun/2022:15:02:41 847 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+20/Jun/2022:15:09:24 712 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+20/Jun/2022:15:17:08 359 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+20/Jun/2022:15:33:33 632 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
