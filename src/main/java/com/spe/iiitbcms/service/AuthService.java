@@ -5,6 +5,7 @@ import com.spe.iiitbcms.dto.LoginRequest;
 import com.spe.iiitbcms.dto.RefreshTokenRequest;
 import com.spe.iiitbcms.dto.RegisterRequest;
 import com.spe.iiitbcms.exceptions.CMSException;
+import com.spe.iiitbcms.model.EmailValidator;
 import com.spe.iiitbcms.model.NotificationEmail;
 import com.spe.iiitbcms.model.User;
 import com.spe.iiitbcms.model.VerificationToken;
@@ -37,8 +38,17 @@ public class AuthService {
     private final MailService mailService;
     private final AuthenticationManager authenticationManager;
     private final RefreshTokenService refreshTokenService;
+    private final EmailValidator emailValidator;
+
 
     public void signup(RegisterRequest registerRequest) {
+
+
+        boolean isEmailValid = emailValidator.isEmailPresent(registerRequest.getEmail());
+
+        if(isEmailValid)
+            throw new IllegalStateException("Email already exists");
+
         User user = new User();
         user.setRollNo(registerRequest.getRollNo());
         user.setName(registerRequest.getName());
@@ -46,6 +56,7 @@ public class AuthService {
         user.setPassword(passwordEncoder.encode(registerRequest.getPassword()));
         user.setCreated(Instant.now());
         user.setEnabled(false);
+        user.setRole(registerRequest.getRole());
 
         userRepository.save(user);
 

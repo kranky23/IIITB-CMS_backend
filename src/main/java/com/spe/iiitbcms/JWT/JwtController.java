@@ -79,9 +79,17 @@ public class JwtController {
         jwtResponse.setToken(token);
         jwtResponse.setEmail(jwtRequest.getEmail());
         jwtResponse.setId(user.get().getUserId());
-        jwtResponse.setRoll_no(user.get().getRollNo());
+        jwtResponse.setRollNo(user.get().getRollNo());
         jwtResponse.setExpiresAt(jwtUtil.extractExpiration(token));
         System.out.println("Expires at " + jwtResponse.getExpiresAt());
+
+        if(user.get().getRole().equals("student"))
+            jwtResponse.setRole("student");
+        else if(user.get().getRole().contains("committee"))
+            jwtResponse.setRole(user.get().getRole());
+        else if(user.get().getRole().equals("admin"))
+            jwtResponse.setRole("admin");
+
         return ResponseEntity.ok(jwtResponse);
     }
 }

@@ -43,4 +43,7 @@ public class User {
     private Instant created;
 
     private boolean enabled;
+
+    public User(Object o, String rollnumber, String testuser, String secretpassword, String s, Instant now, boolean b) {
+    }
 }

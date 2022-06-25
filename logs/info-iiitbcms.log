@@ -2085,3 +2085,20 @@
 24/Jun/2022:14:25:09 971 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 24172 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
 24/Jun/2022:14:25:09 976 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
 24/Jun/2022:14:25:17 855 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 8.361 seconds (JVM running for 10.239)
+25/Jun/2022:00:11:02 696 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 25396 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+25/Jun/2022:00:11:02 701 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+25/Jun/2022:00:11:09 789 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 7.595 seconds (JVM running for 9.425)
+25/Jun/2022:00:11:16 951 [AuthController.java] [INFO] com.spe.iiitbcms.controller.AuthController Successfully logged in
+25/Jun/2022:00:11:28 439 [MailService.java] [INFO] com.spe.iiitbcms.service.MailService Activation email sent!!
+25/Jun/2022:13:50:15 773 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 25384 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+25/Jun/2022:13:50:15 780 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+25/Jun/2022:13:50:26 024 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 10.882 seconds (JVM running for 12.715)
+25/Jun/2022:14:06:23 622 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 23468 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+25/Jun/2022:14:06:23 622 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+25/Jun/2022:14:06:32 104 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 8.998 seconds (JVM running for 10.952)
+25/Jun/2022:14:09:47 621 [AuthController.java] [INFO] com.spe.iiitbcms.controller.AuthController Successfully logged in
+25/Jun/2022:14:09:59 719 [MailService.java] [INFO] com.spe.iiitbcms.service.MailService Activation email sent!!
+25/Jun/2022:14:11:29 088 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 18488 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+25/Jun/2022:14:11:29 095 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+25/Jun/2022:14:11:38 328 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 9.758 seconds (JVM running for 12.434)
+25/Jun/2022:14:11:45 631 [AuthController.java] [INFO] com.spe.iiitbcms.controller.AuthController Account activated successfully

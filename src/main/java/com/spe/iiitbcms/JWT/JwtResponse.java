@@ -2,7 +2,6 @@ package com.spe.iiitbcms.JWT;
 
 import lombok.Data;
 
-import java.time.Instant;
 import java.util.Date;
 
 @Data
@@ -12,7 +11,8 @@ public class JwtResponse {
     String email;
     Long id;
     Date expiresAt;
-    String roll_no;
+    String rollNo;
+    String role;
 
     public JwtResponse() {
     }
@@ -29,12 +29,12 @@ public class JwtResponse {
         this.token = token;
     }
 
-    public String getRoll_no() {
-        return roll_no;
+    public String getRollNo() {
+        return rollNo;
     }
 
-    public void setRoll_no(String roll_no) {
-        this.roll_no = roll_no;
+    public void setRollNo(String rollNo) {
+        this.rollNo = rollNo;
     }
 
     public String getEmail() {
