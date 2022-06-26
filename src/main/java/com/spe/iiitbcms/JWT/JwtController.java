@@ -40,6 +40,8 @@ public class JwtController {
         System.out.println("Obtained email is " + jwtRequest.getEmail());
         System.out.println("Obtained password is " + jwtRequest.getPassword());
 
+        Optional<User> user = userRepository.findByEmail(jwtRequest.getEmail());
+
         try
         {
             this.authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(jwtRequest.getEmail(),
@@ -63,7 +65,7 @@ public class JwtController {
 
 //        Optional<User> temp = userRepo.findUserName(jwtRequest.getUsername());
 
-        Optional<User> user = userRepository.findByEmail(jwtRequest.getEmail());
+
 
 
         System.out.println("email is " + user.get().getEmail());

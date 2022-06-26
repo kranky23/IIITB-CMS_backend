@@ -124,3 +124,6 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 20/Jun/2022:15:09:24 712 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
 20/Jun/2022:15:17:08 359 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
 20/Jun/2022:15:33:33 632 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+26/Jun/2022:10:16:57 934 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the post 1
+26/Jun/2022:10:16:57 966 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 1
+26/Jun/2022:10:18:51 412 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post

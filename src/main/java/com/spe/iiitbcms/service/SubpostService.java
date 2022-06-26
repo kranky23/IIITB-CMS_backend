@@ -10,9 +10,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.Instant;
 import java.util.List;
-
-import static java.util.stream.Collectors.toList;
 
 @Service
 @AllArgsConstructor
@@ -23,23 +22,36 @@ public class SubpostService {
     private final SubpostMapper subpostMapper;
 
     @Transactional
-    public SubpostDto save(SubpostDto subpostDto) {
-        Subpost save = subpostRepository.save(subpostMapper.mapDtoToSubpost(subpostDto));
-        subpostDto.setId(save.getId());
-        return subpostDto;
+    public Subpost save(SubpostDto subpostDto)
+    {
+        Subpost subpost = new Subpost();
+
+        subpost.setDescription(subpostDto.getDescription());
+        subpost.setName(subpostDto.getName());
+        subpost.setCreatedDate(Instant.now());
+
+        subpostRepository.save(subpost);
+
+        return subpost;
     }
 
-    @Transactional(readOnly = true)
-    public List<SubpostDto> getAll() {
-        return subpostRepository.findAll()
-                .stream()
-                .map(subpostMapper::mapSubpostToDto)
-                .collect(toList());
+    public List<Subpost> getAll() {
+        return subpostRepository.findAll();
     }
 
     public SubpostDto getSubpost(Long id) {
         Subpost subpost = subpostRepository.findById(id)
                 .orElseThrow(() -> new CMSException("No subpost found with ID - " + id));
         return subpostMapper.mapSubpostToDto(subpost);
+    }
+
+    public boolean deleteSubPost(String role) {
+        Subpost subpost = subpostRepository.getByName(role);
+        if(subpost!=null) {
+            subpostRepository.delete(subpost);
+            return true;
+        }
+        return false;
+
     }
 }

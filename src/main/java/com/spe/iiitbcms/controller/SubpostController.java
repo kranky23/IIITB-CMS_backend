@@ -1,6 +1,7 @@
 package com.spe.iiitbcms.controller;
 
 import com.spe.iiitbcms.dto.SubpostDto;
+import com.spe.iiitbcms.model.Subpost;
 import com.spe.iiitbcms.service.SubpostService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -22,25 +23,25 @@ public class SubpostController {
     private static final Logger logger = LogManager.getLogger(SubpostController.class);
     private final SubpostService subpostService;
 
-    @PostMapping
-    public ResponseEntity<SubpostDto> createSubpost(@RequestBody SubpostDto subpostDto) {
-        SubpostDto res = new SubpostDto();
+    @PostMapping("/post")
+    public ResponseEntity<Subpost> createSubpost(@RequestBody SubpostDto subpostDto) {
+        Subpost subpost = new Subpost();
         HttpStatus stat;
         try {
-            res = subpostService.save(subpostDto);
+            subpost = subpostService.save(subpostDto);
             stat = HttpStatus.CREATED;
             logger.info("Successfully created subpost");
         } catch (Exception e) {
             stat = HttpStatus.EXPECTATION_FAILED;
             logger.error("Could not create subpost");
         }
-        return ResponseEntity.status(stat).body(res);
+        return ResponseEntity.status(stat).body(subpost);
     }
 
     @GetMapping
-    public ResponseEntity<List<SubpostDto>> getAllSubposts() {
+    public ResponseEntity<List<Subpost>> getAllSubposts() {
         HttpStatus stat;
-        List<SubpostDto> subposts = new ArrayList<>();
+        List<Subpost> subposts = new ArrayList<>();
         try {
             subposts = subpostService.getAll();
             stat = HttpStatus.OK;
@@ -65,5 +66,17 @@ public class SubpostController {
             logger.error("Error in fetching subpost with id " + id);
         }
         return ResponseEntity.status(stat).body(subpost);
+    }
+
+    @DeleteMapping("{role}")
+    public ResponseEntity<HttpStatus> deleteSubPost(@PathVariable String role)
+    {
+        System.out.println("role is " + role);
+        if(subpostService.deleteSubPost(role))
+        {
+            return ResponseEntity.status(HttpStatus.OK).body(null);
+        }
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(null);
+
     }
 }
