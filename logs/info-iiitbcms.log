@@ -2187,3 +2187,31 @@
 26/Jun/2022:14:02:18 121 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
 26/Jun/2022:14:02:23 249 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
 26/Jun/2022:14:02:28 985 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:04:19 689 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 1724 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+26/Jun/2022:14:04:19 689 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+26/Jun/2022:14:04:39 377 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 21.313 seconds (JVM running for 25.803)
+26/Jun/2022:14:04:52 358 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:05:00 645 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:07:24 021 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:08:39 976 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:08:47 887 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully created subpost
+26/Jun/2022:14:08:56 302 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:10:08 088 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:10:20 184 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully created subpost
+26/Jun/2022:14:10:20 231 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:18:54 040 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:19:22 320 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:19:42 774 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:19:50 837 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:19:53 449 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:21:12 189 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:21:33 924 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:21:53 368 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:22:01 082 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:22:09 522 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:22:11 788 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:22:14 377 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:22:21 907 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully created subpost
+26/Jun/2022:14:22:21 961 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+26/Jun/2022:14:25:49 056 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:12:05:40 485 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
