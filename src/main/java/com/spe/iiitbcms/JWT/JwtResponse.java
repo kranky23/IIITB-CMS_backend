@@ -13,6 +13,7 @@ public class JwtResponse {
     Date expiresAt;
     String rollNo;
     String role;
+    String name;
 
     public JwtResponse() {
     }
@@ -44,6 +45,8 @@ public class JwtResponse {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public void setName(String name) { this.name = name;}
 
     public Date getExpiresAt() {
         return expiresAt;

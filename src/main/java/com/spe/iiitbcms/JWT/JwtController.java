@@ -83,6 +83,7 @@ public class JwtController {
         jwtResponse.setId(user.get().getUserId());
         jwtResponse.setRollNo(user.get().getRollNo());
         jwtResponse.setExpiresAt(jwtUtil.extractExpiration(token));
+        jwtResponse.setName(user.get().getName());
         System.out.println("Expires at " + jwtResponse.getExpiresAt());
 
         if(user.get().getRole().equals("student"))

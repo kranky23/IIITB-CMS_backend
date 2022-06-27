@@ -33,7 +33,7 @@ Contains backend code for IIITB CMS
 ***
 
 ### API Documentation
-Check the API docs at [http://localhost:8090/swagger-ui.html#/](http://localhost:8090/swagger-ui.html#/) after running the project.
+Check the API docs at [http://localhost:8080/swagger-ui.html#/](http://localhost:8080/swagger-ui.html#/) after running the project.
 
 ***
 ### Mailbox
