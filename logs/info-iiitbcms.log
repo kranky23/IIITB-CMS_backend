@@ -2215,3 +2215,344 @@
 26/Jun/2022:14:22:21 961 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
 26/Jun/2022:14:25:49 056 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
 27/Jun/2022:12:05:40 485 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:12:20:20 825 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 16272 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+27/Jun/2022:12:20:20 831 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+27/Jun/2022:12:20:28 295 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 8.026 seconds (JVM running for 9.872)
+27/Jun/2022:12:22:49 364 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:14:11:40 038 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 29184 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+27/Jun/2022:14:11:40 042 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+27/Jun/2022:14:11:43 557 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 3.754 seconds (JVM running for 4.728)
+27/Jun/2022:14:12:11 890 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:14:12:47 408 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:14:19:04 976 [AuthController.java] [INFO] com.spe.iiitbcms.controller.AuthController Successfully logged in
+27/Jun/2022:14:19:16 435 [MailService.java] [INFO] com.spe.iiitbcms.service.MailService Activation email sent!!
+27/Jun/2022:14:20:14 600 [AuthController.java] [INFO] com.spe.iiitbcms.controller.AuthController Account activated successfully
+27/Jun/2022:14:21:00 647 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:17:42:17 627 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:17:57:32 927 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 3140 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+27/Jun/2022:17:57:32 930 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+27/Jun/2022:17:57:41 319 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 8.765 seconds (JVM running for 10.086)
+27/Jun/2022:20:26:59 822 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:20:27:13 795 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:20:27:21 481 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:20:27:21 672 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:20:27:23 005 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:20:31:34 740 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 3216 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+27/Jun/2022:20:31:34 745 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+27/Jun/2022:20:46:22 745 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 4284 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+27/Jun/2022:20:46:22 752 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+27/Jun/2022:20:46:30 952 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 9.292 seconds (JVM running for 12.302)
+27/Jun/2022:20:46:43 475 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:20:57:50 233 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:20:59:15 230 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 9484 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+27/Jun/2022:20:59:15 240 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+27/Jun/2022:20:59:23 235 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 8.465 seconds (JVM running for 10.41)
+27/Jun/2022:20:59:39 379 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:00:08 680 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:01:41 066 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:01:47 122 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully created post
+27/Jun/2022:21:01:47 255 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:02:01 987 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:04:11 837 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:04:18 469 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully created post
+27/Jun/2022:21:04:18 662 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:08:13 840 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 22056 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+27/Jun/2022:21:08:13 845 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+27/Jun/2022:21:08:22 062 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 8.726 seconds (JVM running for 10.487)
+27/Jun/2022:21:09:39 932 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 13244 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+27/Jun/2022:21:09:39 937 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+27/Jun/2022:21:10:50 113 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 14940 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+27/Jun/2022:21:10:50 118 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+27/Jun/2022:21:10:56 770 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 7.064 seconds (JVM running for 8.278)
+27/Jun/2022:21:11:28 421 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:11:31 620 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:11:48 423 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully created post
+27/Jun/2022:21:11:48 524 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:11:48 541 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:21:17:11 764 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:17:26 800 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully created post
+27/Jun/2022:21:17:27 177 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:21:17:27 183 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:20:13 511 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:20:13 514 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:21:23:19 335 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:23:21 566 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:21:23:21 575 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:28:22 707 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:29:01 868 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:29:09 568 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:32:29 894 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:34:10 574 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 9260 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+27/Jun/2022:21:34:10 580 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+27/Jun/2022:21:34:18 799 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 8.793 seconds (JVM running for 13.4)
+27/Jun/2022:21:36:29 440 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:38:07 840 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 5412 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+27/Jun/2022:21:38:07 844 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+27/Jun/2022:21:38:15 124 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 7.768 seconds (JVM running for 9.372)
+27/Jun/2022:21:38:32 404 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:40:15 022 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 9432 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+27/Jun/2022:21:40:15 027 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+27/Jun/2022:21:40:22 139 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 7.607 seconds (JVM running for 9.045)
+27/Jun/2022:21:41:30 660 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 20456 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+27/Jun/2022:21:41:30 660 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+27/Jun/2022:21:41:37 165 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 6.978 seconds (JVM running for 8.513)
+27/Jun/2022:21:41:43 345 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:21:41:48 377 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:43:37 090 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:44:56 363 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:47:14 714 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:20:46 826 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:22:20:49 547 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:21:10 354 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:21:19 216 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:22:21:23 061 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:24:00 669 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:22:24:22 966 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:22:24:26 269 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:22:24:28 003 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:22:24:29 914 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:22:24:36 368 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:22:24:58 605 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:22:25:00 568 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:26:22 503 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:26:33 174 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:27:13 969 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:28:41 306 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:28:49 744 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:11:01 471 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:11:16 050 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:12:13 655 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:12:20 891 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:12:28 616 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:12:58 298 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:13:21 926 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:13:29 404 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:15:19 202 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:15:59 598 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:16:28 280 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:16:39 650 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:17:08 180 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:18:09 344 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:18:10 003 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:18:14 416 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:18:14 432 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:18:49 893 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:18:49 893 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:20:17 969 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:20:17 969 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:20:20 528 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:21:39 273 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:21:41 561 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:21:41 561 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:22:05 704 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:22:05 704 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:23:55 518 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:23:55 518 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:24:06 735 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:24:06 735 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:24:10 997 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:24:13 819 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:24:13 819 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:24:21 646 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:24:23 341 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:24:23 342 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:24:28 362 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:24:28 367 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:24:31 294 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:24:31 294 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:25:36 165 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:25:36 165 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:25:56 973 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:25:56 973 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:25:56 973 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:26:07 126 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:26:07 126 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:26:07 142 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:26:20 614 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:26:20 614 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:26:20 614 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:26:34 893 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:26:34 893 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:26:34 893 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:27:21 225 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:27:21 227 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:27:21 244 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:28:00 853 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:28:00 857 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:28:00 868 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:28:05 793 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:28:05 793 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:28:05 793 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:28:23 939 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:28:23 939 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:28:23 939 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:28:30 318 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:28:30 318 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:28:30 318 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:28:35 208 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:28:35 208 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:28:35 208 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:29:13 914 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:29:13 914 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:31:12 667 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:31:12 911 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:31:38 432 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:31:38 436 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:31:38 436 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:32:09 974 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:32:09 974 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:32:09 974 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:32:47 759 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:32:47 759 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:33:13 726 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:33:13 743 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:34:18 631 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:34:18 631 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:34:39 541 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:34:39 541 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:35:16 931 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:35:16 931 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:35:22 612 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:35:22 612 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:35:36 585 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:35:36 589 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:35:44 211 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+27/Jun/2022:23:35:44 211 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+27/Jun/2022:23:35:45 630 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:36:37 374 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:36:49 395 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:37:13 589 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:37:40 686 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:37:58 329 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:38:11 552 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:38:20 134 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:38:25 558 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:38:41 499 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:38:56 450 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:39:09 867 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:39:28 151 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:43:22 571 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:44:01 576 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:44:05 671 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:46:22 043 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:46:57 044 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:50:25 327 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:50:51 205 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:14:21 666 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+28/Jun/2022:01:14:44 321 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+28/Jun/2022:01:14:44 375 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+28/Jun/2022:01:14:59 203 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+28/Jun/2022:01:14:59 218 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+28/Jun/2022:01:15:01 439 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:16:04 817 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:21:35 268 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:22:01 228 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:25:18 418 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 11452 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+28/Jun/2022:01:25:18 423 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+28/Jun/2022:01:25:26 365 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 8.451 seconds (JVM running for 10.524)
+28/Jun/2022:01:41:05 806 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 14076 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+28/Jun/2022:01:41:05 806 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+28/Jun/2022:01:41:13 233 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 7.872 seconds (JVM running for 9.694)
+28/Jun/2022:01:42:15 322 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:42:38 515 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:43:48 578 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+28/Jun/2022:01:43:48 606 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+28/Jun/2022:01:43:50 539 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+28/Jun/2022:01:44:08 800 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully created post
+28/Jun/2022:01:44:08 893 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+28/Jun/2022:01:44:08 897 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+28/Jun/2022:01:44:15 854 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:44:53 418 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:48:04 396 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:48:23 970 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:48:37 624 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:49:03 370 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:49:28 019 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:50:03 875 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:55:46 934 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:56:36 814 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:02:03 433 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:05:31 879 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:05:46 008 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:06:10 882 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+28/Jun/2022:02:06:10 897 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+28/Jun/2022:02:06:22 952 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+28/Jun/2022:02:06:43 264 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully created post
+28/Jun/2022:02:06:43 357 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+28/Jun/2022:02:06:43 357 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+28/Jun/2022:02:06:47 910 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:14:12 186 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:16:17 318 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 8008 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+28/Jun/2022:02:16:17 318 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+28/Jun/2022:02:16:24 130 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 7.3 seconds (JVM running for 8.975)
+28/Jun/2022:02:16:57 450 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+28/Jun/2022:02:16:57 466 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+28/Jun/2022:02:17:04 699 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+28/Jun/2022:02:17:04 709 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+28/Jun/2022:02:17:06 676 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:17:29 444 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:22:54 453 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 1956 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+28/Jun/2022:02:22:54 456 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+28/Jun/2022:02:22:58 261 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 4.017 seconds (JVM running for 4.856)
+28/Jun/2022:02:23:51 135 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 21204 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+28/Jun/2022:02:23:51 135 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+28/Jun/2022:02:23:53 968 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 3.026 seconds (JVM running for 3.727)
+28/Jun/2022:02:24:09 875 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:25:46 839 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 10756 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+28/Jun/2022:02:25:46 839 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+28/Jun/2022:02:25:49 841 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 3.19 seconds (JVM running for 3.942)
+28/Jun/2022:02:26:10 973 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+28/Jun/2022:02:26:10 988 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+28/Jun/2022:02:26:13 624 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+28/Jun/2022:02:26:13 624 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+28/Jun/2022:02:26:15 782 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:26:43 544 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+28/Jun/2022:02:26:43 544 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+28/Jun/2022:02:26:45 698 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+28/Jun/2022:02:26:53 618 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully created post
+28/Jun/2022:02:26:53 675 [SubpostController.java] [INFO] com.spe.iiitbcms.controller.SubpostController Successfully fetched subposts
+28/Jun/2022:02:26:53 675 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts
+28/Jun/2022:02:26:56 696 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:29:40 363 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 10644 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+28/Jun/2022:02:29:40 363 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+28/Jun/2022:02:29:43 292 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 3.15 seconds (JVM running for 3.834)
+28/Jun/2022:02:29:50 099 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:31:13 153 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 12840 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+28/Jun/2022:02:31:13 153 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+28/Jun/2022:02:31:16 001 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 3.039 seconds (JVM running for 3.641)
+28/Jun/2022:02:31:21 688 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:33:04 337 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:34:08 362 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:34:25 096 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:34:53 739 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:34:59 123 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:35:11 635 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:35:22 487 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:40:15 504 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 20352 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+28/Jun/2022:02:40:15 507 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+28/Jun/2022:02:40:18 897 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 3.641 seconds (JVM running for 4.759)
+28/Jun/2022:02:40:23 085 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:42:10 950 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 12392 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+28/Jun/2022:02:42:10 953 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+28/Jun/2022:02:42:13 902 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 3.189 seconds (JVM running for 3.803)
+28/Jun/2022:02:42:34 950 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:43:47 115 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 19168 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+28/Jun/2022:02:43:47 117 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+28/Jun/2022:02:43:50 588 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 3.738 seconds (JVM running for 4.711)
+28/Jun/2022:02:44:22 501 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:45:01 174 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:48:12 524 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 19340 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+28/Jun/2022:02:48:12 528 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+28/Jun/2022:02:48:16 669 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 4.365 seconds (JVM running for 5.417)
+28/Jun/2022:02:48:22 091 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:52:20 270 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 21172 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+28/Jun/2022:02:52:20 270 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+28/Jun/2022:02:52:23 440 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 3.519 seconds (JVM running for 4.863)
+28/Jun/2022:02:52:27 725 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:52:57 337 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Starting SpringIIITcmsApplication using Java 17.0.2 on Kaushik with PID 13388 (E:\SpringBoot\target\classes started by Kaushik in E:\SpringBoot)
+28/Jun/2022:02:52:57 341 [SpringApplication.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication No active profile set, falling back to default profiles: default
+28/Jun/2022:02:53:01 109 [StartupInfoLogger.java] [INFO] com.spe.iiitbcms.SpringIIITcmsApplication Started SpringIIITcmsApplication in 4.146 seconds (JVM running for 5.205)
+28/Jun/2022:02:53:17 631 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:53:28 855 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:53:53 175 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:54:38 216 [PostController.java] [INFO] com.spe.iiitbcms.controller.PostController Successfully fetched posts for email kaushik.sai@iiitb.ac.in

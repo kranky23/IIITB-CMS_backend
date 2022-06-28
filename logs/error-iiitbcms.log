@@ -127,3 +127,87 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 26/Jun/2022:10:16:57 934 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the post 1
 26/Jun/2022:10:16:57 966 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 1
 26/Jun/2022:10:18:51 412 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+27/Jun/2022:20:27:29 033 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+27/Jun/2022:20:27:32 700 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+27/Jun/2022:20:28:00 844 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+27/Jun/2022:20:46:57 141 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+27/Jun/2022:21:00:25 373 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+27/Jun/2022:21:01:47 358 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post(s)
+27/Jun/2022:21:02:56 179 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Error in creating post
+27/Jun/2022:21:04:18 677 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post(s)
+27/Jun/2022:21:32:33 729 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:32:33 757 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch posts for roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:36:31 739 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:36:31 881 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch posts for roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:38:31 206 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:38:31 310 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch posts for email kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:41:48 349 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:43:37 082 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:44:56 357 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:21:47:14 711 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:20:49 551 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:21:10 358 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:21:23 058 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:25:00 568 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:26:22 503 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:26:33 174 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:27:13 920 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:28:41 301 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:22:28:49 712 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:20:20 513 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:21:39 257 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:24:16 913 [VoteController.java] [ERROR] com.spe.iiitbcms.controller.VoteController Voting failed
+27/Jun/2022:23:24:18 302 [VoteController.java] [ERROR] com.spe.iiitbcms.controller.VoteController Voting failed
+27/Jun/2022:23:35:45 630 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:36:37 374 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:36:49 395 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:37:13 567 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:37:40 686 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:37:58 325 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:38:11 548 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:38:20 105 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:38:25 558 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:38:41 490 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:38:56 439 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:39:09 867 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:39:28 139 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:43:22 571 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:44:01 568 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:44:05 666 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:46:22 027 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:46:57 044 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:50:25 311 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+27/Jun/2022:23:50:51 205 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:15:01 439 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:16:04 809 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:21:35 207 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:22:01 219 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:42:15 247 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:42:38 421 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:44:15 854 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:44:53 370 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:48:04 396 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:48:23 963 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:48:37 600 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:49:03 352 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:49:28 019 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:50:03 857 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:55:46 909 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:01:56:36 767 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:02:03 421 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:05:31 879 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:05:45 998 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:06:47 899 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:17:06 663 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:26:15 782 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:26:56 696 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:34:08 746 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:34:25 060 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:34:53 660 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:34:59 099 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:35:11 620 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:35:22 455 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:45:01 171 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:53:28 824 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:53:53 144 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+28/Jun/2022:02:54:38 197 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in

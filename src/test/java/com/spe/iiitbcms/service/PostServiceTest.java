@@ -22,6 +22,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.time.Instant;
+import java.time.LocalDateTime;
 import java.util.Optional;
 
 import static java.util.Collections.emptyList;
@@ -55,7 +56,7 @@ class PostServiceTest {
     @DisplayName("Should Retrieve Post by Id")
     public void shouldFindPostById() {
         Post post = new Post(123L, "First Post", "http://url.site", "Test",
-                0, null, Instant.now(), null);
+                0, null, LocalDateTime.now(), null);
         PostResponse expectedPostResponse = new PostResponse(123L, "First Post", "http://url.site", "Test",
                 "Test User", "Test Subredit", 0, 0, "1 Hour Ago", false, false);
 

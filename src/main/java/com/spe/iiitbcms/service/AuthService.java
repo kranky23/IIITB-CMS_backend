@@ -1,8 +1,5 @@
 package com.spe.iiitbcms.service;
 
-import com.spe.iiitbcms.dto.AuthenticationResponse;
-import com.spe.iiitbcms.dto.LoginRequest;
-import com.spe.iiitbcms.dto.RefreshTokenRequest;
 import com.spe.iiitbcms.dto.RegisterRequest;
 import com.spe.iiitbcms.exceptions.CMSException;
 import com.spe.iiitbcms.model.EmailValidator;
@@ -14,7 +11,6 @@ import com.spe.iiitbcms.repository.VerificationTokenRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -24,6 +20,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.Instant;
+import java.time.LocalDateTime;
 import java.util.Optional;
 import java.util.UUID;
 
@@ -54,7 +51,7 @@ public class AuthService {
         user.setName(registerRequest.getName());
         user.setEmail(registerRequest.getEmail());
         user.setPassword(passwordEncoder.encode(registerRequest.getPassword()));
-        user.setCreated(Instant.now());
+        user.setLocalDateTime(LocalDateTime.now());
         user.setEnabled(true);
         user.setRole(registerRequest.getRole());
 

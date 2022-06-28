@@ -41,9 +41,9 @@ public class PostController {
     }
 
     @GetMapping
-    public ResponseEntity<List<PostResponse>> getAllPosts() {
+    public ResponseEntity<List<Post>> getAllPosts() {
         HttpStatus stat;
-        List<PostResponse> psts = new ArrayList<>();
+        List<Post> psts = new ArrayList<>();
         try {
             stat = HttpStatus.OK;
             psts = postService.getAllPosts();
@@ -86,18 +86,23 @@ public class PostController {
         return status(stat).body(pst);
     }
 
-    @GetMapping("by-user/{rollNo}")
-    public ResponseEntity<List<PostResponse>> getPostsByRollNo(@PathVariable String rollNo) {
+    @GetMapping("by-user/{email}")
+    public List<Post> getPostsByEmail(@PathVariable String email) {
         HttpStatus stat;
-        List<PostResponse> psts = new ArrayList<>();
+        List<Post> psts = postService.getPostsByEmail(email);
+        if(psts.size()==0)
+        {
+            logger.info("No comments present for " + email);
+        }
         try {
-            psts = postService.getPostsByRollNo(rollNo);
+            psts = postService.getPostsByEmail(email);
             stat = HttpStatus.OK;
-            logger.info("Successfully fetched posts for roll number " + rollNo);
+            logger.info("Successfully fetched posts for email " + email);
         } catch (Exception e) {
             stat = HttpStatus.EXPECTATION_FAILED;
-            logger.error("Could not fetch posts for roll number " + rollNo);
+            logger.error("Could not fetch posts for email " + email);
         }
-        return status(stat).body(psts);
+//        System.out.println("timestamp of first post is " + psts.get(0).getLocalDateTime());
+        return psts;
     }
 }

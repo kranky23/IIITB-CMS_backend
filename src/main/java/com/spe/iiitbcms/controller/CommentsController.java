@@ -8,7 +8,6 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.constraints.Null;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -45,14 +44,14 @@ public class CommentsController {
         return ResponseEntity.status(OK).body(cmts);
     }
 
-    @GetMapping("/by-user/{rollNo}")
-    public ResponseEntity<List<CommentsDto>> getAllCommentsForUser(@PathVariable String rollNo){
+    @GetMapping("/by-user/{email}")
+    public ResponseEntity<List<CommentsDto>> getAllCommentsForUser(@PathVariable String email){
         List<CommentsDto> cmts = new ArrayList<>();
         try {
-            cmts = commentService.getAllCommentsForUser(rollNo);
-            logger.info("Successfully fetched comments for the user with roll number " + rollNo);
+            cmts = commentService.getAllCommentsForUser(email);
+            logger.info("Successfully fetched comments for the user with roll number " + email);
         } catch (Exception e){
-            logger.error("Error in fetching comments for the user with roll number " + rollNo);
+            logger.error("Error in fetching comments for the user with roll number " + email);
         }
         return ResponseEntity.status(OK).body(cmts);
     }

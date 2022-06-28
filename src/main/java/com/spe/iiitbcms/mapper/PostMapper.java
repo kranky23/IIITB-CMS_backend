@@ -1,6 +1,5 @@
 package com.spe.iiitbcms.mapper;
 
-import com.github.marlonlom.utilities.timeago.TimeAgo;
 import com.spe.iiitbcms.dto.PostRequest;
 import com.spe.iiitbcms.dto.PostResponse;
 import com.spe.iiitbcms.model.*;
@@ -10,6 +9,8 @@ import com.spe.iiitbcms.service.AuthService;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import java.time.LocalDateTime;
 
 import java.util.Optional;
 
@@ -27,7 +28,7 @@ public abstract class PostMapper {
     private AuthService authService;
 
 
-    @Mapping(target = "createdDate", expression = "java(java.time.Instant.now())")
+    @Mapping(target = "localDateTime", source = "postRequest.localDateTime")
     @Mapping(target = "description", source = "postRequest.description")
     @Mapping(target = "subpost", source = "subpost")
     @Mapping(target = "voteCount", constant = "0")
@@ -49,7 +50,7 @@ public abstract class PostMapper {
 
     String getDuration(Post post) {
         //return TimeAgo.using(post.getCreatedDate().toEpochMilli());
-        return post.getCreatedDate().toString();
+        return post.getLocalDateTime().toString();
         // return "testingduration";
     }
 

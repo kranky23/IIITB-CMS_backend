@@ -1,6 +1,7 @@
 package com.spe.iiitbcms.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -10,6 +11,7 @@ import org.springframework.lang.Nullable;
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import java.time.Instant;
+import java.time.LocalDateTime;
 
 import static javax.persistence.FetchType.LAZY;
 import static javax.persistence.GenerationType.IDENTITY;
@@ -40,10 +42,10 @@ public class Post {
     @JoinColumn(name = "userId", referencedColumnName = "userId")
     private User user;
 
-    private Instant createdDate;
+    private LocalDateTime localDateTime;
 
     @ManyToOne(fetch = LAZY)
-    @JoinColumn(name = "id", referencedColumnName = "id")
+    @JoinColumn(name = "subpost_id", referencedColumnName = "id")
     private Subpost subpost;
 
     public Long getPostId() {
@@ -97,12 +99,13 @@ public class Post {
         this.user = user;
     }
 
-    public Instant getCreatedDate() {
-        return createdDate;
+    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
+    public LocalDateTime getLocalDateTime() {
+        return localDateTime;
     }
 
-    public void setCreatedDate(Instant createdDate) {
-        this.createdDate = createdDate;
+    public void setLocalDateTime(LocalDateTime localDateTime) {
+        this.localDateTime = localDateTime;
     }
 
     @JsonBackReference

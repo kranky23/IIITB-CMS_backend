@@ -17,6 +17,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 import static java.util.stream.Collectors.toList;
@@ -34,10 +35,18 @@ public class PostService {
     private final PostMapper postMapper;
 
     public void save(PostRequest postRequest) {
-        Subpost subpost = subpostRepository.findByName(postRequest.getSubpostName())
-                .orElseThrow(() -> new SubpostNotFoundException(postRequest.getSubpostName()));
+        Subpost subpost = subpostRepository.getByName(postRequest.getSubpostName());
         System.out.println("SUbpost is " + subpost.toString());
-        postRepository.save(postMapper.map(postRequest, subpost, authService.getCurrentUser()));
+        User user = userRepository.getByEmail(postRequest.getEmail());
+        Post post = new Post();
+        post.setPostName(postRequest.getPostName());
+        post.setLocalDateTime(LocalDateTime.now());
+        post.setDescription(postRequest.getDescription());
+        post.setSubpost(subpost);
+        post.setUrl(postRequest.getUrl());
+        post.setVoteCount(0);
+        post.setUser(user);
+        postRepository.save(post);
     }
 
     @Transactional(readOnly = true)
@@ -48,11 +57,9 @@ public class PostService {
     }
 
     @Transactional(readOnly = true)
-    public List<PostResponse> getAllPosts() {
-        return postRepository.findAll()
-                .stream()
-                .map(postMapper::mapToDto)
-                .collect(toList());
+    public List<Post> getAllPosts() {
+        return postRepository.findAll();
+
     }
 
     @Transactional(readOnly = true)
@@ -64,12 +71,9 @@ public class PostService {
     }
 
     @Transactional(readOnly = true)
-    public List<PostResponse> getPostsByRollNo(String rollNo) {
-        User user = userRepository.findByRollNo(rollNo)
-                .orElseThrow(() -> new UsernameNotFoundException(rollNo));
-        return postRepository.findByUser(user)
-                .stream()
-                .map(postMapper::mapToDto)
-                .collect(toList());
+    public List<Post> getPostsByEmail(String email) {
+        User user = userRepository.getByEmail(email);
+        System.out.println("User of these posts is " + user.getEmail() + " " + user.getName());
+        return postRepository.findByUser(user);
     }
 }

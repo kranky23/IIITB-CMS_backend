@@ -9,6 +9,7 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.time.Instant;
+import java.time.LocalDateTime;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -22,7 +23,7 @@ public class PostRepositoryTest extends BaseTest {
     @Test
     public void shouldSavePost() {
         Post expectedPostObject = new Post(null, "First Post", "http://url.site", "Test",
-                0, null, Instant.now(), null);
+                0, null, LocalDateTime.now(), null);
         Post actualPostObject = postRepository.save(expectedPostObject);
         assertThat(actualPostObject).usingRecursiveComparison()
                 .ignoringFields("postId").isEqualTo(expectedPostObject);
