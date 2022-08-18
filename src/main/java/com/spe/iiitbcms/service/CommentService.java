@@ -15,6 +15,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 import static java.util.stream.Collectors.toList;
@@ -31,14 +32,27 @@ public class CommentService {
     private final MailContentBuilder mailContentBuilder;
     private final MailService mailService;
 
-    public void save(CommentsDto commentsDto) {
+    public void save(CommentsDto commentsDto)
+    {
+        System.out.println(commentsDto.getPostId());
+        System.out.println(commentsDto.getId());
+
+        User user = userRepository.getByEmail(commentsDto.getEmail());
+//        Post pst = postRepository.getById(commentsDto.getPostId());
         Post post = postRepository.findById(commentsDto.getPostId())
                 .orElseThrow(() -> new PostNotFoundException(commentsDto.getPostId().toString()));
-        Comment comment = commentMapper.map(commentsDto, post, authService.getCurrentUser());
+        System.out.println("post is " + post.getPostName());
+        System.out.println("user is " + user.getName());
+        Comment comment = new Comment();
+        comment.setPost(post);
+        comment.setUser(user);
+        comment.setText(commentsDto.getText());
+        comment.setLocalDateTime(LocalDateTime.now());
+//        System.out.println(comment.getText());
         commentRepository.save(comment);
-
-        String message = mailContentBuilder.build(post.getUser().getName() + " ("+post.getUser().getRollNo() + ") " + " posted a comment on your post." + POST_URL);
-        sendCommentNotification(message, post.getUser());
+//
+//        String message = mailContentBuilder.build(post.getUser().getName() + " ("+post.getUser().getRollNo() + ") " + " posted a comment on your post." + POST_URL);
+//        sendCommentNotification(message, post.getUser());
     }
 
     private void sendCommentNotification(String message, User user) {
@@ -47,6 +61,15 @@ public class CommentService {
 
     public List<CommentsDto> getAllCommentsForPost(Long postId) {
         Post post = postRepository.findById(postId).orElseThrow(() -> new PostNotFoundException(postId.toString()));
+        List<Comment> al;
+        al = commentRepository.findByPost(post);
+        for(Comment c: al)
+        {
+            System.out.println("user is " + c.getUser().getName());
+            System.out.println(c.getText());
+            System.out.println(c.getPost().getDescription());
+        }
+//        return al;
         return commentRepository.findByPost(post)
                 .stream()
                 .map(commentMapper::mapToDto).collect(toList());

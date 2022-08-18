@@ -53,7 +53,14 @@ public class PostService {
     public PostResponse getPost(Long id) {
         Post post = postRepository.findById(id)
                 .orElseThrow(() -> new PostNotFoundException(id.toString()));
-        return postMapper.mapToDto(post);
+//        System.out.println(post.getDescription());
+        PostResponse postResponse = new PostResponse();
+        postResponse.setId(post.getPostId());
+        postResponse.setSubpostName(post.getSubpost().getName());
+        postResponse.setVoteCount(post.getVoteCount());
+        postResponse.setDescription(post.getDescription());
+        postResponse.setPostName(post.getPostName());
+        return postResponse;
     }
 
     @Transactional(readOnly = true)

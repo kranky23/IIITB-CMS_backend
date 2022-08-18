@@ -1,6 +1,7 @@
 package com.spe.iiitbcms.controller;
 
 import com.spe.iiitbcms.dto.CommentsDto;
+import com.spe.iiitbcms.model.Comment;
 import com.spe.iiitbcms.service.CommentService;
 import lombok.AllArgsConstructor;
 import org.apache.logging.log4j.LogManager;

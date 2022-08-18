@@ -211,3 +211,27 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 28/Jun/2022:02:53:28 824 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
 28/Jun/2022:02:53:53 144 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
 28/Jun/2022:02:54:38 197 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+18/Aug/2022:23:21:18 332 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 1
+18/Aug/2022:23:21:27 726 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 1
+18/Aug/2022:23:21:35 859 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 2
+18/Aug/2022:23:24:54 957 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 2
+18/Aug/2022:23:26:27 395 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 2
+18/Aug/2022:23:26:31 211 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 2
+18/Aug/2022:23:28:56 290 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 2
+18/Aug/2022:23:29:07 792 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 1
+18/Aug/2022:23:30:03 635 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 1
+19/Aug/2022:00:19:59 412 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Comment could not be created
+19/Aug/2022:00:34:04 025 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Comment could not be created
+19/Aug/2022:00:34:57 531 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Comment could not be created
+19/Aug/2022:00:36:33 926 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Comment could not be created
+19/Aug/2022:00:38:32 552 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Comment could not be created
+19/Aug/2022:00:39:21 911 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Comment could not be created
+19/Aug/2022:00:40:18 781 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Comment could not be created
+19/Aug/2022:00:41:15 074 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Comment could not be created
+19/Aug/2022:00:46:20 747 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Comment could not be created
+19/Aug/2022:00:46:54 365 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Comment could not be created
+19/Aug/2022:01:29:31 086 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+19/Aug/2022:01:59:30 713 [CommentsController.java] [ERROR] com.spe.iiitbcms.controller.CommentsController Error in fetching comments for the user with roll number kaushik.sai@iiitb.ac.in
+19/Aug/2022:02:03:01 973 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 2
+19/Aug/2022:02:03:16 650 [PostController.java] [ERROR] com.spe.iiitbcms.controller.PostController Could not fetch post with id 1
+19/Aug/2022:02:24:00 167 [AuthController.java] [ERROR] com.spe.iiitbcms.controller.AuthController Error logging in

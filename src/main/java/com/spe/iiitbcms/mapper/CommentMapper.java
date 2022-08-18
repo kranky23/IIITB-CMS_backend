@@ -11,12 +11,13 @@ import org.mapstruct.Mapping;
 public interface CommentMapper {
     @Mapping(target = "id", ignore = true)
     @Mapping(target = "text", source = "commentsDto.text")
-    @Mapping(target = "createdDate", expression = "java(java.time.Instant.now())")
+    @Mapping(target = "localDateTime", expression = "java(java.time.LocalDateTime.now())")
     @Mapping(target = "post", source = "post")
     @Mapping(target = "user", source = "user")
     Comment map(CommentsDto commentsDto, Post post, User user);
 
     @Mapping(target = "postId", expression = "java(comment.getPost().getPostId())")
-    @Mapping(target = "rollNo", expression = "java(comment.getUser().getRollNo())")
+    @Mapping(target = "email", expression = "java(comment.getUser().getEmail())")
+    @Mapping(target = "username", expression = "java(comment.getUser().getName())")
     CommentsDto mapToDto(Comment comment);
 }

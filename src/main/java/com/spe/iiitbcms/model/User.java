@@ -60,6 +60,14 @@ public class User implements UserDetails {
         return Collections.singletonList(authority);
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     @Override
     public String getUsername() {
         return null;
